@@ -5,7 +5,7 @@
     --cor-lilas: #5f2c82;
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
     
     body {
         background-image: linear-gradient(to top, var(--cor-lilas), var(--cor-verde));
@@ -19,9 +19,14 @@
   
     }
     #formulario {
-        float: right;
+        float: none;
         width: 70%;
+        margin: 0 auto;
     }
+    #formulario p {
+        font-size: 1em;
+    }
+    
 }
 @media screen and (min-width: 992px) {
     body {
@@ -36,9 +41,13 @@
 
     }
     #formulario {
-        float: right;
+        float: none;
         width: 50%;
+        margin: 0 auto;
+    }
 
+    #formulario p {
+        font-size: 1.2em;
     }
     
 }
